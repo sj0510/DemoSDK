@@ -1,4 +1,4 @@
-# DemoSDK
+# ToastSDK
 It is a Android SDK Library to show Toast message.
 
 To get a Git project into your build, Please follow below steps to import this library:
