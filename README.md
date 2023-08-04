@@ -20,3 +20,11 @@ To get a Git project into your build, Please follow below steps to import this l
     	        implementation 'com.github.sj0510:DemoSDK:Tag'
     	}
    ```
+> Step 3. Add this function in MainActivity or Fragment to call SDK Function
+
+```MainActivity
+        import com.sj.mylibrarysdk.MySdk
+        fun launchSDK(view: View) {
+        MySdk.showToast(this,"Welcome! This is SDK World")
+        }
+ ```
